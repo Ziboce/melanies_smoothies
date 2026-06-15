@@ -15,7 +15,7 @@ smoothie_name = st.text_input('Name on Smoothie:')
 
 st.write('The name on your Smoothie will be: ', smoothie_name)
 
-smoothiefroot_response = requests.get("[https://my.smoothiefroot.com/api/fruit/watermelon](https://my.smoothiefroot.com/api/fruit/watermelon)")  
+smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")  
 st.text(smoothiefroot_response.json())
 
 
